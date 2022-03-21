@@ -20,14 +20,14 @@ c. **Menambahkan validasi ketika inputan tidak lengkap.** \
    input maupun update. Jika method return 1, maka `JOptionPane` akan mengeluarkan pesan "Harap lengkapi data!". \
 d. **Menghapus Data pada label inputan ketika sudah selesai melakukan suatu action** \
    Tahap ini dapat dilakukan dengan cara mereset isi semua variabel inputan dengan menggunakan `setText("")`. Setelah action pada suatu button dilakukan maka kode
-   berikut akan dijalankan./
+   berikut akan dijalankan. \
    ```
    txtNIM.setText("");
    txtName.setText("");
    txtScore.setText("");
    txtClass.setText("");
    ```
-e. **Mengupdate tabel setiap kali ada perubahan**
+e. **Mengupdate tabel setiap kali ada perubahan** \
    Tahap ini dapat dilakukan dengan cara mengupdat tabel dengan menggunakan kode `tableRecord.setModel(setTable());` setelah modifikasi dilakukan.
    
    
